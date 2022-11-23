@@ -1,0 +1,41 @@
+.top-dishes-title{
+    margin:1.5rem;
+}
+
+.top-dishes-wrapper{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.top-menu{
+    display:flex;
+    width:max-content;
+    background-color: var(--green-2);
+    border-radius:20px;
+    padding:20px;
+    margin:1.3rem
+}
+
+.ul-top{
+    list-style-type:none;
+    padding:10px;
+}
+
+.normal-menu-wrapper{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.menu{
+    display:flex;
+    height:220px;
+    width:550px;
+    background-color: var(--green-2);
+    margin:20px;
+    padding:20px;
+    border-radius:20px
+}
+
+.menu-jpg{
+    height:200px
+}

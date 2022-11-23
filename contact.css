@@ -1,0 +1,99 @@
+.store-info{
+    width:100%;
+    justify-items:center;
+    align-items:center;
+    padding-top: 4rem;
+}
+
+.store-info-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+
+.icon{
+    background-color: var(--green-2);
+    border: 2px solid #d6e5de;
+    width:10%;
+    margin:0;
+    padding:0;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    text-align:center;
+    
+}
+
+.icon-title{
+    padding:0;
+    margin:0;
+}
+
+.icon-text{
+    padding:0;
+    margin:0;
+}
+
+.form-wrapper{
+    padding:3rem;
+}
+
+.form{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:2rem;
+}
+
+.label{
+    font-size:1.5rem;
+    font-family:poppins;
+    color:var(--black-1);
+    font-weight: 500;
+}
+
+.input{
+    background-color: #9af89e;
+    width: 100%;
+    border:none;
+    font-size:1.4rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding:1.5rem;
+    border-radius:8px;
+    margin-top:0.5rem;
+    color:var(--black-2)
+}
+
+.pesan{
+    background-color: #9af89e;
+    width: 100%;
+    border:none;
+    font-size:1.4rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding:1.5rem;
+    border-radius:8px;
+    margin-top:0.5rem;
+    color:var(--black-2)
+}
+
+.button{
+    background-color:var(--green-1);
+    text-decoration:none;
+    color:white;
+    padding:10px;
+    font-size:1.2rem;
+    border:none;
+    width:15%;
+    border-radius: 8px;
+    justify-self: right;
+}
+
+
+

@@ -1,0 +1,25 @@
+.book-form{
+    padding:5%;
+    padding-bottom: 0%;
+}
+
+form{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+input,select{
+    background-color: #9af89e;
+    width: 100%;
+    border:none;
+    font-size:1.4rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border:5px solid var(--green-3);
+    padding:1.5rem;
+    border-radius:20px;
+    margin-top:0.5rem;
+    color:var(--black-2);
+}

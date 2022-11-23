@@ -1,0 +1,40 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.story-wrapper{
+    display:flex;
+    gap:5rem;
+    margin-top:8rem;
+}
+
+.story-wrapper-left{
+    margin-left:5rem
+}
+
+.story-wrapper-right{
+    width:600px;
+    font-size:1.25rem
+}
+
+.tujuan{
+    margin-top:8.5rem;
+}
+.tujuan-wrapper{
+    justify-content: center;
+    text-align: center;
+}
+
+.tujuan-wrapper-atas{
+    padding-right:10rem;
+    padding-left:10rem;
+    font-size:1.1rem
+}
+
+@media only screen and (max-width: 768px){
+    .story-wrapper{
+        display:block;
+    }
+}

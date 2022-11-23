@@ -1,0 +1,101 @@
+.html,body{
+    padding:0;
+    margin:0;
+}
+
+:root{
+    --green-1: #26643b;
+    --green-2: #a2de96;
+    --green-3:#d6e5d8;
+    --black-1:#3b413a;
+    --black-2:#5b6359;
+}
+
+body{
+    background-color:#d6e5d8;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: var(--green-2) ;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size:1.1rem;
+}
+
+.ul-navbar{
+    display:flex;
+    list-style-type:none;
+}
+
+.li-navbar{
+    padding:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.btn-book-btn{
+    background-color:var(--green-1);
+    text-decoration:none;
+    color:white;
+    border-radius: 20px;
+    padding:10px;
+    font-size:1.2rem;
+}
+
+.a-navbar{
+    text-decoration:none;
+    color:var(--black-1);
+    font-weight: bolder;
+}
+
+.a-navbar:hover{
+    color:var(--green-1);
+    text-decoration:5px solid underline
+}
+
+.footer{
+    margin-top: 11rem;
+}
+
+.footer-wrapper{
+    display:flex;
+    justify-content: center;
+    background-color: #39cb32;
+}
+
+.footer-items{
+    padding:4rem;
+    text-align: center;
+}
+
+.ul-footer{
+    width:8rem;
+    list-style-type: none;
+    text-align: left;
+}
+
+.li-footer{
+    margin:10px;
+}
+
+.href-footer{
+    text-decoration: none;
+    color:var(--black-2);
+    font-size:1.1rem
+}
+
+.footer-logo{
+    padding:4rem;
+    text-align: center;
+}
+
+.sosialmedia{
+    font-size:2rem;
+}
